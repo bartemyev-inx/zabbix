@@ -12,7 +12,7 @@ import sys
 zapi = ZabbixAPI("http://zabbix.303net.pvt/zabbix")
 zapi.login("username", "password")
 print("Connected to Zabbix API Version %s" % zapi.api_version())
-
+print('')
 # Login to the Zabbix API
 
 host_name = 'pdu3a.dal.303net.pvt'
